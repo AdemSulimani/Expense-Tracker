@@ -37,7 +37,7 @@ renderaddItems();
 
    if (name.trim() === '' || price.trim() === '') {
         alert('Please enter both item name and price.');
-        return; // Exit the function early if inputs are empty
+        return; 
     }
 
    items.push({
